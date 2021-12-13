@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { YourComponent } from "../components/CustomCurSorChat";
+import { CustomComponent } from "../components/CustomCurSorChat";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Multiplayer Mouse</h1>
       </main>
-      <YourComponent socketURL="wss://ws-dev.yomo.run" />
+      <CustomComponent socketURL="wss://ws-dev.yomo.run" />
     </div>
   );
 }

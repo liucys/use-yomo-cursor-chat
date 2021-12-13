@@ -26,7 +26,7 @@ const OthersCursor = ({ cursor }) => {
 };
 
 // Exporting your custom components
-export const YourComponent = ({
+export const CustomComponent = ({
   socketURL,
   name,
   avatar,
