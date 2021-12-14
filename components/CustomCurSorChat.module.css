@@ -12,3 +12,10 @@
 .cursor {
   position: absolute;
 }
+
+.otherCursor {
+  position: absolute;
+  transition-property: transform;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+}
