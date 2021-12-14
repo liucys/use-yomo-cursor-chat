@@ -30,7 +30,7 @@ export const CustomComponent = ({
   socketURL,
   name,
   avatar,
-  sendingTimeInterval = 200,
+  sendingTimeInterval = 100,
 }) => {
   const { me, others } = useOnlineCursor({
     socketURL,

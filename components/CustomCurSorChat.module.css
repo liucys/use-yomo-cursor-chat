@@ -17,5 +17,5 @@
   position: absolute;
   transition-property: transform;
   transition-timing-function: linear;
-  transition-duration: 200ms;
+  transition-duration: 100ms;
 }
