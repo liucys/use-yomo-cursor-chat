@@ -4,6 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
-  color: #fff;
+  text-align: center;
+}
+
+.main h3 a {
+  text-decoration: underline;
+  color: #3c40c6;
 }

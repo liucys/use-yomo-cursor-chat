@@ -17,6 +17,7 @@ const MeCursor = ({ cursor }) => {
 
 const OthersCursor = ({ cursor }) => {
   const refContainer = useRenderPosition(cursor);
+  console.log(cursor);
 
   return (
     <div ref={refContainer} className={styles.otherCursor}>
